@@ -2,6 +2,9 @@
 This scripts transfers given amount of tokens to given recipient.  
 Tested with Padlock testnet.
 
+## Installation:  
+`npm install`
+
 ## Usage:  
 `npm run start <recipient address> <amount>`  
 Amount given in 1/1000000000000 parts of a Unit, so `npm run start <recipient address> 1000000000000`  will send 1 Unit
